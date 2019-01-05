@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEmployee"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/blue">
+
+    <!--<EditText-->
+        <!--android:id="@+id/id"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="@string/id"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:inputType="number"-->
+        <!--android:background="@drawable/edit_text"-->
+        <!--android:padding="10dp"/>-->
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/salary"
+        android:layout_marginBottom="15dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/jop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jop"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/save"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="save_btn"
+        android:background="@drawable/btns"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
